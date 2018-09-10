@@ -1,0 +1,50 @@
+body, html {
+  overflow-y: hidden;
+  font-family: "M PLUS Rounded 1c";
+  background-image: linear-gradient(to right, #1A298f, #26D0CE);
+}
+@font-face {
+  body, html {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+}
+body .container, html .container {
+  height: 100%;
+}
+body table, html table {
+  color: black !important;
+  background-color: transparent !important;
+  margin-top: 200px;
+}
+body table tr, html table tr {
+  text-align: center;
+  border: none !important;
+  text-align: center;
+}
+body table tr:hover:not(:first-child), html table tr:hover:not(:first-child) {
+  background-color: #2BC0E4 !important;
+}
+body table tr:hover:not(:first-child) td:first-child, html table tr:hover:not(:first-child) td:first-child {
+  color: black !important;
+}
+body table tr:hover, html table tr:hover {
+  cursor: default;
+}
+body table th, body table td:first-child, html table th, html table td:first-child {
+  color: white !important;
+}
+body table th, body table td:not(:first-child), html table th, html table td:not(:first-child) {
+  text-align: center !important;
+}
+
+::-moz-selection {
+  background-color: Transparent;
+  color: #000;
+}
+
+::selection {
+  background-color: Transparent;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+body, html {
+  overflow-y: hidden;
+  font-family: "M PLUS Rounded 1c";
+
+  @font-face {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  background-image: linear-gradient(to right, #1A298f, #26D0CE);
+  .container {
+    height: 100%;
+  }
+
+  table {
+    color: black !important;
+    background-color: transparent !important;
+    margin-top: 200px;
+
+    tr {
+      text-align: center;
+      border: none !important;
+      text-align: center;
+
+      &:hover:not(:first-child) {
+        background-color: #2BC0E4 !important;
+
+        td:first-child {
+          color: black !important;
+        }
+      }
+
+      &:hover {
+        cursor: default;
+      }
+    }
+    th, td:first-child {
+      color: white !important;
+    }
+    th ,td:not(:first-child) {
+      text-align: center !important;
+    }
+  }
+}
+
+::-moz-selection{
+  background-color:Transparent;
+  color:#000;
+}
+
+::selection {
+  background-color:Transparent;
+  color:#000;
+}
